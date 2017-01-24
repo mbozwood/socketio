@@ -1,7 +1,7 @@
 # Laravel - SocketIO
 
 Begin by installing this package through Composer. Run the following from the terminal:  
-``` composer require "mbozwood/socketio": "dev-master"```  
+``` composer require mbozwood/socketio```  
 
 Next, add your new provider to the `providers` array of `config/app.php`:
 ```
