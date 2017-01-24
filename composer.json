@@ -1,0 +1,23 @@
+{
+  "name": "mbozwood/socketio",
+  "description": "Laravel and Socket.IO Integration using Elephant.IO",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matt Bozwood-Davies"
+    },
+    {
+      "name": "Taylor Otwell",
+      "email": "taylorotwell@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "wisembly/elephant.io": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MBozwood\\SocketIO\\": "src/"
+    }
+  }
+}
