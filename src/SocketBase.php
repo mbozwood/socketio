@@ -6,7 +6,7 @@ use ElephantIO\Engine\SocketIO\Version1X;
 use ElephantIO\EngineInterface;
 use ElephantIO\Exception\ServerConnectionFailureException;
 
-class Socket extends Version1X
+class SocketBase extends Version1X
 {
     public function connect()
     {
