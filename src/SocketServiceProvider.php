@@ -25,7 +25,7 @@ class SocketServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('socket', function() {
-            $socket = new Client(new Socket(env('SOCKET_URL', 'http://localhost:3000'), []));
+            $socket = new Client(new SocketBase(env('SOCKET_URL', 'http://localhost:3000'), []));
             $socket->initialize();
             return $socket;
         });
